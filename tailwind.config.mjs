@@ -11,7 +11,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#005397",
+        primarydeep: "#00233F",
         black: "#111322",
+        gray: "#4A5578",
+      },
+      fontFamily: {
+        workSans: "var(--font-work-sans)",
       },
     },
   },
