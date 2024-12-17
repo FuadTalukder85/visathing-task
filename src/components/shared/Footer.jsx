@@ -9,12 +9,12 @@ import ButtonOutline from "../reusableComponents/Button/ButtonOutline";
 const Footer = () => {
   return (
     <Container>
-      <div className="grid grid-cols-8">
+      <div className="grid grid-cols-8 mt-28">
         <div className="col-span-3">
           <div>
             <Image src={logo} alt="logo" width={150} height={150}></Image>
           </div>
-          <p className="text-gray font-normal text-sm pr-32 mt-8">
+          <p className="text-gray-600 font-normal text-sm pr-32 mt-8">
             <span className="font-medium">Disclaimer:</span> Due to the periodic
             changes of information/ requirement/ document, RSIN doesn’t provide
             any confirmation, guarantee or representation, express or implied,
@@ -87,6 +87,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* bottom footer todo */}
     </Container>
   );
 };
