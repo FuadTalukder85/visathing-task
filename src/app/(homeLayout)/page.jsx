@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Gallery from "@/components/Gallery";
 import HowItWorks from "@/components/HowItWorks";
 import Review from "@/components/Review";
 import Solutions from "@/components/Solutions";
@@ -12,6 +13,7 @@ const page = () => {
       <Solutions></Solutions>
       <Review></Review>
       <HowItWorks></HowItWorks>
+      <Gallery></Gallery>
     </div>
   );
 };
