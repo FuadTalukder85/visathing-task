@@ -71,8 +71,8 @@ const Review = () => {
           </div>
           <div className="col-span-8 flex justify-end">
             <div>
-              <p className="flex items-center gap-1 font-normal text-[16px]">
-                See our <b className="underline">2,000 reviews</b>{" "}
+              <p className="flex items-center gap-1 font-normal text-gray-600 text-[16px]">
+                See our <b className="underline text-gray-900">2,000 reviews</b>{" "}
                 <span className="pr-2">on</span>
                 <Image src={star} alt="star"></Image>
                 Trustpilot

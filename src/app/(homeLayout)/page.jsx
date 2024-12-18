@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Banner from "@/components/Banner";
 import FAQ from "@/components/FAQ";
 import Gallery from "@/components/Gallery";
 import HowItWorks from "@/components/HowItWorks";
@@ -9,6 +10,7 @@ import TrustedLogo from "@/components/TrustedLogo";
 const page = () => {
   return (
     <div className="">
+      <Banner></Banner>
       <TrustedLogo></TrustedLogo>
       <AboutUs></AboutUs>
       <Solutions></Solutions>
