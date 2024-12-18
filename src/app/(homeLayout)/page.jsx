@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import FAQ from "@/components/FAQ";
 import Gallery from "@/components/Gallery";
 import HowItWorks from "@/components/HowItWorks";
 import Review from "@/components/Review";
@@ -14,6 +15,7 @@ const page = () => {
       <Review></Review>
       <HowItWorks></HowItWorks>
       <Gallery></Gallery>
+      <FAQ></FAQ>
     </div>
   );
 };
