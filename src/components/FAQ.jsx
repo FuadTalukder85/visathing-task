@@ -123,10 +123,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="p-6 md:p-10 mt-28">
+    <div className="p-5 md:p-10 mt-28 bg-gray-50">
       <Container>
         <p className="text-center text-green-800 font-normal text-xl">Faq</p>
-        <p className="text-center text-gray-900 font-semibold text-[42px] leading-[60px] mt-4">
+        <p className="text-center text-black font-semibold text-[42px] leading-[60px] mt-4">
           Frequently asked questions
         </p>
         {/* tabs */}
@@ -148,17 +148,19 @@ const FAQ = () => {
           ))}
         </div>
         {/* FAQ items */}
-        <div className=" mx-auto space-y-4 mt-16">
+        <div className="mx-auto mt-16">
           {tabData[activeTab].faqs.map((faq, index) => (
             <div
               key={index}
-              className="border-b border-gray-200 pb-4 cursor-pointer"
+              className={`border-b border-gray-200 p-4 py-6 cursor-pointer ${
+                openIndex === index ? "bg-white" : "bg-transparent"
+              }`}
             >
               <div
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between items-center"
               >
-                <h3 className="text-2xl font-medium text-gray-900">
+                <h3 className="text-2xl font-medium text-black">
                   {faq.question}
                 </h3>
                 <span className="">

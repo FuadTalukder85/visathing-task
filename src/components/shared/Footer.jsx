@@ -10,14 +10,13 @@ import BottomFooter from "./BottomFooter";
 const Footer = () => {
   return (
     <div>
-      {" "}
       <Container>
         <div className="grid grid-cols-8 mt-28">
           <div className="col-span-3">
             <div>
               <Image src={logo} alt="logo" width={150} height={150}></Image>
             </div>
-            <p className="text-gray-600 font-normal text-sm pr-32 mt-8">
+            <p className="text-gray-600 font-normal leading-6 text-sm pr-32 mt-8">
               <span className="font-medium">Disclaimer:</span> Due to the
               periodic changes of information/ requirement/ document, RSIN
               doesn’t provide any confirmation, guarantee or representation,
@@ -95,14 +94,14 @@ const Footer = () => {
       {/* copyright */}
       <div className="bg-gray-100 py-3">
         <Container>
-          <div className="flex justify-between">
+          <div className="flex justify-between text-black">
             <p className="text-sm font-normal">
               Copyright RSIN@2024 . All rights reserved. V-0.1.14
             </p>
-            <ul className="flex gap-6">
-              <li className="text-sm font-normal">Terms and Conditions</li>
-              <li className="text-sm font-normal">Privacy policy</li>
-              <li className="text-sm font-normal">Cookie Settings</li>
+            <ul className="flex gap-5 text-sm font-normal">
+              <li>Terms and Conditions</li>
+              <li>Privacy policy</li>
+              <li>Cookie Settings</li>
             </ul>
           </div>
         </Container>

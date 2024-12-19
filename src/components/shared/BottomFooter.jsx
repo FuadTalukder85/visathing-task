@@ -10,7 +10,7 @@ import scan from "../../../public/images/scan.png";
 
 const BottomFooter = () => {
   return (
-    <div className="grid grid-cols-3 mt-10 justify-between py-24">
+    <div className="grid grid-cols-3 mt-10 justify-between py-24 border-t border-gray-200">
       <div className="">
         <p className="text-black font-medium text-[16px]">Contact Us</p>
         <ul>
@@ -20,7 +20,7 @@ const BottomFooter = () => {
           <li className="text-gray-600 font-medium text-[14px] mt-3">
             Phone: <span className="text-primary">8001000265</span>
           </li>
-          <li className="mt-5 flex gap-6">
+          <li className="mt-5 flex gap-5">
             <Image src={footerIcon01} alt="footerIcon01"></Image>
             <Image src={footerIcon02} alt="footerIcon02"></Image>
             <Image src={footerIcon03} alt="footerIcon03"></Image>
@@ -31,7 +31,7 @@ const BottomFooter = () => {
       <div className="">
         <p className="text-black font-medium text-[16px]">Office Address</p>
         <ul>
-          <li className="w-[380px] text-gray-600 font-medium text-[14px] mt-3">
+          <li className="w-[380px] text-gray-600 font-normal text-[14px] mt-3">
             Address: 1st Floor, Homestead Gulshan Link Tower, DCC TA-99,
             Gulshan-Badda link Road, Gulshan-1, Dhaka-1212
           </li>
@@ -41,7 +41,7 @@ const BottomFooter = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center justify-end gap-6">
+      <div className="flex items-center justify-end gap-5 text-black">
         <div>
           <div>
             <Image src={apple} alt="apple" width={100} height={100}></Image>

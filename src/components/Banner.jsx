@@ -15,14 +15,14 @@ import star from "../../public/icons/star.png";
 const Banner = () => {
   return (
     <Container>
-      <div className="grid grid-cols-7 items-center gap-40 mt-24">
-        <div className="col-span-3 flex items-center gap-3">
+      <div className="grid grid-cols-9 items-center gap-40 mt-28">
+        <div className="col-span-4 flex items-center gap-3">
           <div>
             <div>
               <Image src={bannerImg01} alt="bannerImg01"></Image>
             </div>
-            <div className="flex items-center gap-4 mt-4">
-              {/* profile images */}
+            {/* profile images */}
+            <div className="flex items-center gap-3 mt-4 bg-[#F3F7FB] shadow-xl shadow-[#90C0F042] rounded-2xl px-3 py-5">
               <div className="flex -space-x-4">
                 <div className="">
                   <Image
@@ -57,8 +57,7 @@ const Banner = () => {
                   />
                 </div>
               </div>
-
-              <span className="text-[11px] font-normal text-gray-900">
+              <span className="text-[11px] font-normal text-black">
                 Trusted by 15k+ investors
               </span>
             </div>
@@ -73,7 +72,7 @@ const Banner = () => {
           </div>
         </div>
         {/* right content */}
-        <div className="col-span-4">
+        <div className="col-span-5">
           <button className="flex items-center justify-center gap-2 p-2 rounded-2xl bg-[#00233F]">
             <div className="">
               <Image src={arabicFont} alt="arabicFont" width={30} height={30} />
@@ -93,12 +92,12 @@ const Banner = () => {
             small businesses, promoting informed decisions and local economic
             growth
           </p>
-          <div className="flex gap-8 mt-6">
+          <div className="flex gap-8 mt-5">
             <ButtonPrimary>Start Investing</ButtonPrimary>
             <ButtonOutline>Get Funded</ButtonOutline>
           </div>
-          <p className="flex items-center gap-1 font-normal text-gray-600 text-[16px] mt-16">
-            See our <b className="underline text-gray-900">2,000 reviews</b>{" "}
+          <p className="flex items-center gap-1 font-normal text-gray-600 text-[16px] mt-14">
+            See our <b className="underline text-black">2,000 reviews</b>{" "}
             <span className="pr-2">on</span>
             <Image src={star} alt="star"></Image>
             Trustpilot

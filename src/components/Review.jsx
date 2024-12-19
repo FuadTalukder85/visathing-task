@@ -2,8 +2,6 @@ import React from "react";
 import Container from "./Container";
 import Image from "next/image";
 import star from "../../public/icons/star.png";
-import arrowLeft from "../../public/icons/arrow_Left.png";
-import arrowRight from "../../public/icons/arrow_right.png";
 import ReviewCard from "./reusableComponents/Card/ReviewCard";
 export const reviews = [
   {
@@ -70,31 +68,19 @@ const Review = () => {
             </p>
           </div>
           <div className="col-span-8 flex justify-end">
-            <div>
-              <p className="flex items-center gap-1 font-normal text-gray-600 text-[16px]">
-                See our <b className="underline text-gray-900">2,000 reviews</b>{" "}
+            <div className="pb-20">
+              <p className="flex items-center gap-1 font-normal text-white text-[16px]">
+                See our <b className="underline">2,000 reviews</b>{" "}
                 <span className="pr-2">on</span>
                 <Image src={star} alt="star"></Image>
                 Trustpilot
               </p>
-              <div className="flex gap-8 mt-12">
-                <button className="py-4 px-4 bg-white rounded-2xl">
-                  <Image src={arrowLeft} alt="arrowLeft"></Image>
-                </button>
-                <button className="py-4 px-4 bg-white rounded-2xl">
-                  <Image src={arrowRight} alt="arrowRight"></Image>
-                </button>
-              </div>
             </div>
           </div>
         </div>
         {/* review card */}
         <div className="mt-14">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-            {reviews.map((review) => (
-              <ReviewCard key={review.id} review={review} />
-            ))}
-          </div>
+          <ReviewCard reviews={reviews} />
         </div>
       </Container>
     </div>

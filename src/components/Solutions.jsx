@@ -10,8 +10,8 @@ const Solutions = () => {
     <div>
       <Container>
         <div className="grid grid-cols-7 gap-24 items-center py-24">
-          <div className="col-span-4 relative bg-gray-100 p-6">
-            <div className="flex gap-6">
+          <div className="col-span-4 relative bg-gray-100 p-5">
+            <div className="flex gap-5">
               <div>
                 <Image
                   src={solution01}
@@ -36,7 +36,7 @@ const Solutions = () => {
           <div className="col-span-3">
             <div>
               <p className="text-green-800 font-normal text-xl">Solutions</p>
-              <p className="text-gray-900 font-semibold text-[42px] mt-4">
+              <p className="text-black font-semibold text-[42px] mt-4">
                 Our Finance Solutions
               </p>
             </div>

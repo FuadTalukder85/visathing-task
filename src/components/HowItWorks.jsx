@@ -17,16 +17,16 @@ const HowItWorks = () => {
   return (
     <div className="bg-[#F3F7FB] py-24">
       <Container>
-        <div className="bg-white p-6 rounded-2xl mt-28">
+        <div className="bg-white p-5 rounded-2xl mt-28">
           <p className="text-green-800 font-normal text-xl">How It Works</p>
-          <p className="w-80 text-gray-900 font-semibold text-[42px] leading-[60px] mt-4">
+          <p className="w-80 text-black font-semibold text-[42px] leading-[60px] mt-4">
             Our Process for Investors and Businesses
           </p>
         </div>
         {/*  */}
-        <div className="grid grid-cols-2 gap-6 mt-6">
-          <div className="bg-white p-6 rounded-2xl">
-            <p className="text-gray-900 font-medium text-2xl">For Investors</p>
+        <div className="grid grid-cols-2 gap-5 mt-6">
+          <div className="bg-white p-5 rounded-2xl">
+            <p className="text-black font-medium text-2xl">For Investors</p>
             <div className="flex justify-center mt-10">
               <button className="border border-gray-200 px-3 py-6 rounded-2xl">
                 <Image src={logo} alt="logo" width={40} height={40}></Image>
@@ -44,7 +44,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
+                  <p className="text-black font-medium text-lg">
                     Explore Opportunities
                   </p>
                   <p className="text-gray-600 text-sm font-normal">
@@ -63,7 +63,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">Invest</p>
+                  <p className="text-black font-medium text-lg">Invest</p>
                   <p className="text-gray-600 text-sm font-normal">
                     Choose and invest in a business that fits your goals.
                   </p>
@@ -80,7 +80,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
+                  <p className="text-black font-medium text-lg">
                     Track Progress
                   </p>
                   <p className="text-gray-600 text-sm font-normal">
@@ -99,7 +99,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
+                  <p className="text-black font-medium text-lg">
                     Receive Returns
                   </p>
                   <p className="text-gray-600 text-sm font-normal">
@@ -114,8 +114,8 @@ const HowItWorks = () => {
             </div>
           </div>
           {/* right part */}
-          <div className="bg-white p-6 rounded-2xl">
-            <p className="text-gray-900 font-medium text-2xl">For Businesses</p>
+          <div className="bg-white p-5 rounded-2xl">
+            <p className="text-black font-medium text-2xl">For Businesses</p>
             <div className="flex justify-center mt-10">
               <button className="border border-gray-200 px-3 py-6 rounded-2xl">
                 <Image src={logo} alt="logo" width={40} height={40}></Image>
@@ -133,9 +133,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
-                    Apply Online
-                  </p>
+                  <p className="text-black font-medium text-lg">Apply Online</p>
                   <p className="text-gray-600 text-sm font-normal">
                     Submit your financing application online.
                   </p>
@@ -152,9 +150,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
-                    Get Verified
-                  </p>
+                  <p className="text-black font-medium text-lg">Get Verified</p>
                   <p className="text-gray-600 text-sm font-normal">
                     Our team reviews and approves your application.Choose and
                     invest in a business that fits your goals.
@@ -172,7 +168,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
+                  <p className="text-black font-medium text-lg">
                     Listed for Funding
                   </p>
                   <p className="text-gray-600 text-sm font-normal">
@@ -191,7 +187,7 @@ const HowItWorks = () => {
                   ></Image>
                 </div>
                 <div>
-                  <p className="text-gray-900 font-medium text-lg">
+                  <p className="text-black font-medium text-lg">
                     Receive Funding
                   </p>
                   <p className="text-gray-600 text-sm font-normal">
