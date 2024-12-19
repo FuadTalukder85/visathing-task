@@ -67,7 +67,7 @@ const Banner = () => {
             </div>
           </div>
           <div className="mt-10 md:mt-0">
-            <div className="w-[290px]">
+            <div className="w-full md:[290px]">
               <Image
                 className="w-full"
                 src={bannerImg02}
@@ -76,7 +76,7 @@ const Banner = () => {
                 height={270}
               ></Image>
             </div>
-            <div className="mt-3 [290px]">
+            <div className="mt-3 w-full md:[290px]">
               <Image
                 className="w-full"
                 src={bannerImg03}
