@@ -7,7 +7,7 @@
 - For run the project use this command "npm run dev"
 - and run http://localhost:3000
 
-- Live url :
+- Live url : https://visathing-task.vercel.app/
 
 ## Project overview
 
