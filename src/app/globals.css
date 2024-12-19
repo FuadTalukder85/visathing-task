@@ -5,3 +5,16 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+@keyframes border-fill {
+  0% {
+    border-bottom-color: #dcdfea;
+  }
+  100% {
+    border-bottom-color: #00233f;
+  }
+}
+
+.animate-border-fill {
+  animation: border-fill 2s linear forwards;
+  border-bottom-color: #00233f;
+}

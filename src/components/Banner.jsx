@@ -26,38 +26,38 @@ const Banner = () => {
               ></Image>
             </div>
             {/* profile images */}
-            <div className="flex items-center gap-3 mt-4 bg-[#F3F7FB] shadow-xl shadow-[#90C0F042] rounded-2xl px-3 py-5">
+            <div className="flex items-center gap-2 mt-4 bg-[#F3F7FB] shadow-xl shadow-[#90C0F042] rounded-2xl px-3 py-5">
               <div className="flex -space-x-4">
                 <div className="">
                   <Image
                     src={profile01}
                     alt="profile01"
-                    width={35}
-                    height={35}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <div className="">
                   <Image
                     src={profile02}
                     alt="profile02"
-                    width={35}
-                    height={35}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <div className="">
                   <Image
                     src={profile03}
                     alt="profile03"
-                    width={35}
-                    height={35}
+                    width={30}
+                    height={30}
                   />
                 </div>
                 <div className="">
                   <Image
                     src={profile04}
                     alt="profile04"
-                    width={35}
-                    height={35}
+                    width={30}
+                    height={30}
                   />
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Banner = () => {
                 height={270}
               ></Image>
             </div>
-            <div className="mt-3 [270px]">
+            <div className="mt-3 [290px]">
               <Image
                 className="w-full"
                 src={bannerImg03}

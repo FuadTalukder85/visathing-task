@@ -16,7 +16,7 @@ const HowItWorks = () => {
   return (
     <div className="bg-[#F3F7FB] py-10 md:py-24">
       <Container>
-        <div className="bg-white p-3 md:p-5 rounded-2xl md:mt-28">
+        <div className="bg-white p-3 md:p-5 rounded-2xl">
           <p className="text-green-800 font-normal text-xl">How It Works</p>
           <p className="md:w-80 text-black font-semibold text-xl md:text-[42px] md:leading-[60px] mt-4">
             Our Process for Investors and Businesses
