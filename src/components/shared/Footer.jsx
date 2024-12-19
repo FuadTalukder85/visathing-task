@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div className="grid grid-cols-8 md:grid-cols-9 gap-5 md:gap-24 mt-10 md:mt-28 p-3 md:p-0">
-          <div className="col-span-8 md:col-span-3">
+        <div className="grid grid-cols-8 md:grid-cols-12 gap-5 md:gap-0 mt-10 md:mt-28 p-3 md:p-0">
+          <div className="col-span-8 md:col-span-4 md:pr-10">
             <div>
               <Image src={logo} alt="logo" width={150} height={150}></Image>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
           </div>
           {/*  */}
-          <div className="col-span-4 md:col-span-1">
+          <div className="col-span-4 md:col-span-2">
             <p className="text-black font-medium text-[16px]">Service</p>
             <ul>
               <li className="text-primarydeep font-normal text-[16px] mt-5">
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="col-span-4 md:col-span-1">
+          <div className="col-span-4 md:col-span-2">
             <p className="text-black font-medium text-[16px]">Company</p>
             <ul>
               <li className="text-primarydeep font-normal text-[16px] mt-5">
@@ -79,7 +79,7 @@ const Footer = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="col-span-8 md:col-span-2 md:pl-14">
+          <div className="col-span-8 md:col-span-2 md:pl-10">
             <p className="text-black font-medium text-[16px]">Action</p>
             <div className="mt-5">
               <ButtonPrimary>Start Investing</ButtonPrimary>
@@ -95,7 +95,7 @@ const Footer = () => {
       <div className="bg-gray-100 p-3 md:py-3">
         <Container>
           <div className="md:flex justify-between text-black">
-            <p className="text-sm font-normal">
+            <p className="text-sm font-normal text-center md:text-base">
               Copyright RSIN@2024 . All rights reserved. V-0.1.14
             </p>
             <ul className="flex gap-5 text-sm font-normal mt-5 md:mt-0">

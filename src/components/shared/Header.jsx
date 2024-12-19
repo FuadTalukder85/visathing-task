@@ -88,12 +88,11 @@ const Header = () => {
                   <span>Financing Rates</span>
                 </li>
                 <li className="font-normal text-black border-b border-gray-200 py-2">
-                  <span className="flex items-center gap-2">
-                    Others
-                    <span>
-                      <Image src={downArrow} alt="downArrow"></Image>
-                    </span>
-                  </span>
+                  <select className="w-20 outline-none">
+                    <option value="">Others</option>
+                    <option value="Sale">Sale</option>
+                    <option value="Featured">Featured</option>
+                  </select>
                 </li>
               </ul>
               <div className="md:hidden mt-10 flex gap-5 justify-center">
@@ -125,12 +124,11 @@ const Header = () => {
                 <span>Financing Rates</span>
               </li>
               <li className="font-normal text-black">
-                <span className="flex items-center gap-2">
-                  Others
-                  <span>
-                    <Image src={downArrow} alt="downArrow"></Image>
-                  </span>
-                </span>
+                <select className="w-20 outline-none">
+                  <option value="">Others</option>
+                  <option value="Sale">Sale</option>
+                  <option value="Featured">Featured</option>
+                </select>
               </li>
             </ul>
           </div>

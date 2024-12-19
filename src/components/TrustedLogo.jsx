@@ -8,6 +8,8 @@ import trustLogo06 from "../../public/images/trustLogo06.png";
 import trustArrow from "../../public/icons/trustArrow.png";
 import Container from "./Container";
 import Image from "next/image";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const TrustedLogo = () => {
@@ -18,6 +20,7 @@ const TrustedLogo = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
+    arrows: false,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -32,7 +35,7 @@ const TrustedLogo = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -42,33 +45,38 @@ const TrustedLogo = () => {
   };
   return (
     <Container>
-      <div className="flex gap-2 items-center mt-28 mb-8">
+      <div className="flex gap-2 items-center justify-center md:justify-start mt-10 md:mt-28 md:mb-8 p-3 md:p-0">
         <p className="text-[16px] text-gray-400">Feature in Trusted by</p>{" "}
-        <span>
+        <div>
           <Image src={trustArrow} alt="trustArrow"></Image>
-        </span>
+        </div>
       </div>
-      <Slider {...settings}>
-        {/* slider */}
-        <div>
-          <Image src={trustLogo01} alt="trustLogo01"></Image>
-        </div>
-        <div>
-          <Image src={trustLogo02} alt="trustLogo02"></Image>
-        </div>
-        <div>
-          <Image src={trustLogo03} alt="trustLogo03"></Image>
-        </div>
-        <div>
-          <Image src={trustLogo04} alt="trustLogo04"></Image>
-        </div>
-        <div>
-          <Image src={trustLogo05} alt="trustLogo05"></Image>
-        </div>
-        <div>
-          <Image src={trustLogo06} alt="trustLogo06"></Image>
-        </div>
-      </Slider>
+      <div className="overflow-x-hidden">
+        <Slider {...settings}>
+          {/* slider */}
+          <div>
+            <Image src={trustLogo01} alt="trustLogo01"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo02} alt="trustLogo02"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo03} alt="trustLogo03"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo04} alt="trustLogo04"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo05} alt="trustLogo05"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo06} alt="trustLogo06"></Image>
+          </div>
+          <div>
+            <Image src={trustLogo05} alt="trustLogo05"></Image>
+          </div>
+        </Slider>
+      </div>
     </Container>
   );
 };

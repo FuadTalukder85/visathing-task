@@ -7,14 +7,26 @@ body {
 }
 @keyframes border-fill {
   0% {
-    border-bottom-color: #dcdfea;
+    width: 0;
   }
   100% {
-    border-bottom-color: #00233f;
+    width: 100%;
   }
 }
 
 .animate-border-fill {
+  position: relative;
+  border-bottom: 1px solid #dcdfea;
+  overflow: hidden;
+}
+
+.animate-border-fill::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2%;
+  width: 0%;
+  background-color: #00233f;
   animation: border-fill 2s linear forwards;
-  border-bottom-color: #00233f;
 }

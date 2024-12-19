@@ -15,7 +15,7 @@ import star from "../../public/icons/star.png";
 const Banner = () => {
   return (
     <Container>
-      <div className="md:grid grid-cols-9 items-center gap-40 mt-28">
+      <div className="md:grid grid-cols-9 items-center gap-40 mt-10 md:mt-28">
         <div className="col-span-4 md:flex items-center gap-3 p-3 md:p-0">
           <div>
             <div>

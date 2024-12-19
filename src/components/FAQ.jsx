@@ -123,7 +123,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="p-5 md:py-24 md:mt-28 bg-gray-50">
+    <div className="p-5 md:py-24 bg-gray-50">
       <Container>
         <p className="text-center text-green-800 font-normal text-xl">Faq</p>
         <p className="text-center text-black font-semibold text-xl md:text-[42px] md:leading-[60px] mt-4">
