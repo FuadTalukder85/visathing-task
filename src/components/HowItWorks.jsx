@@ -10,23 +10,24 @@ import howItWorksIcon07 from "../../public/icons/howItWorksIcon07.png";
 import howItWorksIcon08 from "../../public/icons/howItWorksIcon08.png";
 import Container from "./Container";
 import ButtonPrimary from "./reusableComponents/Button/ButtonPrimary";
-import ButtonOutline from "./reusableComponents/Button/ButtonOutline";
 import ButtonPlay from "./reusableComponents/Button/ButtonPlay";
 
 const HowItWorks = () => {
   return (
-    <div className="bg-[#F3F7FB] py-24">
+    <div className="bg-[#F3F7FB] py-10 md:py-24">
       <Container>
-        <div className="bg-white p-5 rounded-2xl mt-28">
+        <div className="bg-white p-3 md:p-5 rounded-2xl md:mt-28">
           <p className="text-green-800 font-normal text-xl">How It Works</p>
-          <p className="w-80 text-black font-semibold text-[42px] leading-[60px] mt-4">
+          <p className="md:w-80 text-black font-semibold text-xl md:text-[42px] md:leading-[60px] mt-4">
             Our Process for Investors and Businesses
           </p>
         </div>
         {/*  */}
-        <div className="grid grid-cols-2 gap-5 mt-6">
+        <div className="md:grid grid-cols-2 gap-5 mt-6">
           <div className="bg-white p-5 rounded-2xl">
-            <p className="text-black font-medium text-2xl">For Investors</p>
+            <p className="text-black font-medium text-xl md:text-2xl">
+              For Investors
+            </p>
             <div className="flex justify-center mt-10">
               <button className="border border-gray-200 px-3 py-6 rounded-2xl">
                 <Image src={logo} alt="logo" width={40} height={40}></Image>
@@ -108,14 +109,16 @@ const HowItWorks = () => {
                 </div>
               </li>
             </ul>
-            <div className="flex justify-end gap-8 mt-6">
+            <div className="flex justify-center md:justify-end gap-3 md:gap-8 mt-6">
               <ButtonPrimary>Start Investing</ButtonPrimary>
               <ButtonPlay>Tutorial</ButtonPlay>
             </div>
           </div>
           {/* right part */}
-          <div className="bg-white p-5 rounded-2xl">
-            <p className="text-black font-medium text-2xl">For Businesses</p>
+          <div className="bg-white p-5 text-xl md:rounded-2xl">
+            <p className="text-black font-medium text-xl md:text-2xl">
+              For Businesses
+            </p>
             <div className="flex justify-center mt-10">
               <button className="border border-gray-200 px-3 py-6 rounded-2xl">
                 <Image src={logo} alt="logo" width={40} height={40}></Image>
@@ -126,8 +129,8 @@ const HowItWorks = () => {
               <li className="mt-6 flex items-center gap-3 p-4 border border-gray-200 rounded-2xl">
                 <div className="bg-green-50 p-3 rounded-lg">
                   <Image
-                    src={howItWorksIcon04}
-                    alt="howItWorksIcon04"
+                    src={howItWorksIcon05}
+                    alt="howItWorksIcon05"
                     width={40}
                     height={40}
                   ></Image>
@@ -196,7 +199,7 @@ const HowItWorks = () => {
                 </div>
               </li>
             </ul>
-            <div className="flex justify-end gap-8 mt-6">
+            <div className="flex justify-center md:justify-end gap-3 md:gap-8 mt-6">
               <ButtonPrimary>Get Funded</ButtonPrimary>
               <ButtonPlay>Tutorial</ButtonPlay>
             </div>

@@ -9,7 +9,7 @@ const Solutions = () => {
   return (
     <div>
       <Container>
-        <div className="grid grid-cols-7 gap-24 items-center py-24">
+        <div className="md:grid grid-cols-7 gap-24 items-center py-24">
           <div className="col-span-4 relative bg-gray-100 p-5">
             <div className="flex gap-5">
               <div>
@@ -33,7 +33,7 @@ const Solutions = () => {
               <div className="w-64 h-64 rounded-md bg-green-400 opacity-35"></div>
             </div>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-3 mt-28">
             <div>
               <p className="text-green-800 font-normal text-xl">Solutions</p>
               <p className="text-black font-semibold text-[42px] mt-4">

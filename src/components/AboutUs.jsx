@@ -9,9 +9,9 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="bg-[#F3F7FB] py-24 mt-28">
+    <div className="bg-[#F3F7FB] py-10 md:py-24 md:mt-28">
       <Container>
-        <div className="grid grid-cols-2 items-center gap-5">
+        <div className="md:grid grid-cols-2 items-center gap-5">
           <div className="relative bg-white flex justify-center items-center h-full rounded-2xl p-5">
             <div className="">
               <div className="z-10 absolute right-6 top-5">
@@ -24,10 +24,10 @@ const AboutUs = () => {
               </div>
               <div className="relative z-50">
                 <p className="text-green-800 font-normal text-xl">About Us</p>
-                <p className="text-black font-semibold text-[42px] leading-[60px] mt-4">
+                <p className="text-black font-semibold text-xl md:text-[42px] md:leading-[60px] mt-4">
                   Aspired To Build A Better Financial World
                 </p>
-                <p className="text-gray-600 font-normal text-sm leading-6 pr-20 mt-8">
+                <p className="text-gray-600 font-normal text-sm leading-6 md:pr-20 mt-8">
                   Raqamyah is a Sharia-compliant crowdlending platform licensed
                   by the Saudi Central Bank (SAMA). It connects SMEs seeking
                   financing with investors looking for competitive returns. By
@@ -95,7 +95,7 @@ const AboutUs = () => {
                 <div className="bg-green-100 w-20 h-20 flex items-center justify-center rounded-full">
                   <Image src={about01} alt="about01"></Image>
                 </div>
-                <p className="text-black font-medium text-xl mt-10">
+                <p className="text-black font-medium md:text-xl mt-10">
                   Low Rates
                 </p>
               </div>
@@ -103,15 +103,15 @@ const AboutUs = () => {
                 <div className="bg-green-100 w-20 h-20 flex items-center justify-center rounded-full">
                   <Image src={about02} alt="about02"></Image>
                 </div>
-                <p className="text-black font-medium text-xl mt-10">
+                <p className="text-black font-medium md:text-xl mt-10">
                   Financing up to SAR 7.5M
                 </p>
               </div>
-              <div className="bg-gray-00 p-5 rounded-lg">
+              <div className="bg-gray-50 p-5 rounded-lg">
                 <div className="bg-green-100 w-20 h-20 flex items-center justify-center rounded-full">
                   <Image src={about03} alt="about03"></Image>
                 </div>
-                <p className="text-black font-medium text-xl mt-10">
+                <p className="text-black font-medium md:text-xl mt-10">
                   Faster Decision
                 </p>
               </div>
@@ -119,7 +119,7 @@ const AboutUs = () => {
                 <div className="bg-green-100 w-20 h-20 flex items-center justify-center rounded-full">
                   <Image src={about04} alt="about04"></Image>
                 </div>
-                <p className="text-black font-medium text-xl mt-10">
+                <p className="text-black font-medium md:text-xl mt-10">
                   Shari’a Compliant
                 </p>
               </div>

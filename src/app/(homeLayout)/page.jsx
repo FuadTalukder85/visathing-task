@@ -11,9 +11,9 @@ const page = () => {
   return (
     <div className="">
       <Banner></Banner>
-      <TrustedLogo></TrustedLogo>
+      {/* <TrustedLogo></TrustedLogo> */}
       <AboutUs></AboutUs>
-      <Solutions></Solutions>
+      {/* <Solutions></Solutions> */}
       <Review></Review>
       <HowItWorks></HowItWorks>
       <Gallery></Gallery>

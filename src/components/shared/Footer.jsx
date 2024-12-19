@@ -11,12 +11,12 @@ const Footer = () => {
   return (
     <div>
       <Container>
-        <div className="grid grid-cols-8 mt-28">
-          <div className="col-span-3">
+        <div className="grid grid-cols-8 md:grid-cols-9 gap-5 md:gap-24 mt-10 md:mt-28 p-3 md:p-0">
+          <div className="col-span-8 md:col-span-3">
             <div>
               <Image src={logo} alt="logo" width={150} height={150}></Image>
             </div>
-            <p className="text-gray-600 font-normal leading-6 text-sm pr-32 mt-8">
+            <p className="text-gray-600 font-normal leading-6 text-sm pr-8 mt-8">
               <span className="font-medium">Disclaimer:</span> Due to the
               periodic changes of information/ requirement/ document, RSIN
               doesn’t provide any confirmation, guarantee or representation,
@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
           </div>
           {/*  */}
-          <div className="col-span-1">
+          <div className="col-span-4 md:col-span-1">
             <p className="text-black font-medium text-[16px]">Service</p>
             <ul>
               <li className="text-primarydeep font-normal text-[16px] mt-5">
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="col-span-1">
+          <div className="col-span-4 md:col-span-1">
             <p className="text-black font-medium text-[16px]">Company</p>
             <ul>
               <li className="text-primarydeep font-normal text-[16px] mt-5">
@@ -58,7 +58,7 @@ const Footer = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="col-span-2">
+          <div className="col-span-8 md:col-span-2">
             <p className="text-black font-medium text-[16px]">Information</p>
             <ul>
               <li className="text-primarydeep font-normal text-[16px] mt-5">
@@ -79,11 +79,11 @@ const Footer = () => {
             </ul>
           </div>
           {/*  */}
-          <div className="col-span-1">
+          <div className="col-span-8 md:col-span-2 md:pl-14">
             <p className="text-black font-medium text-[16px]">Action</p>
             <div className="mt-5">
               <ButtonPrimary>Start Investing</ButtonPrimary>
-              <div className="mt-5 flex justify-center">
+              <div className="md:flex justify-center mt-5">
                 <ButtonOutline>Get Funded</ButtonOutline>
               </div>
             </div>
@@ -92,13 +92,13 @@ const Footer = () => {
         <BottomFooter></BottomFooter>
       </Container>
       {/* copyright */}
-      <div className="bg-gray-100 py-3">
+      <div className="bg-gray-100 p-3 md:py-3">
         <Container>
-          <div className="flex justify-between text-black">
+          <div className="md:flex justify-between text-black">
             <p className="text-sm font-normal">
               Copyright RSIN@2024 . All rights reserved. V-0.1.14
             </p>
-            <ul className="flex gap-5 text-sm font-normal">
+            <ul className="flex gap-5 text-sm font-normal mt-5 md:mt-0">
               <li>Terms and Conditions</li>
               <li>Privacy policy</li>
               <li>Cookie Settings</li>

@@ -9,7 +9,7 @@ import arrowRight from "../../../../public/icons/arrow_right.png";
 import "./ReviewCard.css";
 const NextArrow = ({ onClick }) => {
   return (
-    <div className="flex justify-end absolute -top-40 right-[165px] px-6 md:px-0">
+    <div className="flex justify-end absolute -top-20 md:-top-40 right-0 md:right-[165px] md:px-0">
       <div
         className="py-4 px-4 bg-white border-2 border-white rounded-2xl hover:bg-green-100 hover:border-2 hover:border-white transition-all duration-500 cursor-pointer"
         onClick={onClick}
@@ -21,7 +21,7 @@ const NextArrow = ({ onClick }) => {
 };
 const PrevArrow = ({ onClick }) => {
   return (
-    <div className="absolute -top-40 right-0 md:mr-64 px-5 md:px-0 z-10">
+    <div className="absolute -top-20 md:-top-40 right-20 md:right-0 md:mr-64 md:px-0 z-10">
       <div
         className="py-4 px-4 bg-white border-2 border-white rounded-2xl hover:bg-green-100 hover:border-2 hover:border-white transition-all duration-500 cursor-pointer"
         onClick={onClick}
@@ -56,7 +56,7 @@ const ReviewCard = ({ reviews }) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.04,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: false,

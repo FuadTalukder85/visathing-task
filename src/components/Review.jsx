@@ -58,18 +58,18 @@ export const reviews = [
 
 const Review = () => {
   return (
-    <div className="bg-primary py-24">
+    <div className="bg-primary py-8 md:py-24 p-3 md:p-0">
       <Container>
-        <div className="grid grid-cols-12 items-center text-white">
+        <div className="md:grid grid-cols-12 items-center text-white">
           <div className="col-span-4">
             <p className="text-green-300 font-normal text-xl">Testimonial</p>
-            <p className="font-semibold text-[42px] leading-[60px] mt-4">
+            <p className="font-semibold text-xl md:text-[42px] md:leading-[60px] mt-4">
               For nearly 07 years, people have chosen VISAThing!
             </p>
           </div>
-          <div className="col-span-8 flex justify-end">
+          <div className="col-span-8 flex md:justify-end mt-3 md:mt-0">
             <div className="pb-20">
-              <p className="flex items-center gap-1 font-normal text-white text-[16px]">
+              <p className="flex items-center gap-1 font-normal text-white text-sm md:text-[16px]">
                 See our <b className="underline">2,000 reviews</b>{" "}
                 <span className="pr-2">on</span>
                 <Image src={star} alt="star"></Image>

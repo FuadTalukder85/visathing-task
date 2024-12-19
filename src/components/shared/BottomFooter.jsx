@@ -10,7 +10,7 @@ import scan from "../../../public/images/scan.png";
 
 const BottomFooter = () => {
   return (
-    <div className="grid grid-cols-3 mt-10 justify-between py-24 border-t border-gray-200">
+    <div className="md:grid grid-cols-3 mt-10 justify-between p-3 md:py-24 border-t border-gray-200">
       <div className="">
         <p className="text-black font-medium text-[16px]">Contact Us</p>
         <ul>
@@ -29,9 +29,11 @@ const BottomFooter = () => {
         </ul>
       </div>
       <div className="">
-        <p className="text-black font-medium text-[16px]">Office Address</p>
+        <p className="text-black font-medium text-[16px] mt-5 md:mt-0">
+          Office Address
+        </p>
         <ul>
-          <li className="w-[380px] text-gray-600 font-normal text-[14px] mt-3">
+          <li className="md:w-[380px] text-gray-600 font-normal text-[14px] mt-3">
             Address: 1st Floor, Homestead Gulshan Link Tower, DCC TA-99,
             Gulshan-Badda link Road, Gulshan-1, Dhaka-1212
           </li>
@@ -41,7 +43,7 @@ const BottomFooter = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center justify-end gap-5 text-black">
+      <div className="flex items-center md:justify-end gap-5 text-black mt-5 md:mt-0">
         <div>
           <div>
             <Image src={apple} alt="apple" width={100} height={100}></Image>
